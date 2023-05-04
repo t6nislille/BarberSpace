@@ -1,6 +1,8 @@
+/*Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+/*Header*/
 * {
     box-sizing: border-box;
 }
@@ -97,3 +99,71 @@ nav a:focus {
         margin: 0.5em 0;
     }
 }
+
+/*Home page*/
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.15);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.landing-text {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.landing-text h3 {
+    font-weight: 700;
+    color: white;
+    font-family: "Lora", sans-serif;
+}
+
+.landing-text h1 {
+    font-size: 450%;
+    font-weight: 700;
+    color: white;
+    font-family: "Lora", sans-serif;
+    padding-bottom: 0;
+    margin: 0 0;
+}
+
+@media (max-width: 675px) {
+    .landing-text h1 {
+        font-size: 260%;
+    }
+}
+
+.btn-hire {
+    background-color:#57321c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 43px;
+}
+
+.btn-hire:hover,
+.btn-hire:focus {
+    background-color: #ff7200;
+}
+
+@media (max-width: 800px) {
+    .btn-hire {
+        padding: 8px 16px;
+    }
+}
+
