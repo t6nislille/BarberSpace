@@ -9,4 +9,40 @@ body {
     margin: 0;
     padding: 0;
     font-family: "poppins", sans-serif;
+    height: 100vh;
+    background-color: #2c200a;
+}
+
+.site-title h1{
+    font-weight: 700;
+    font-family: "lora", "san-serif";
+    color: #ff7200;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.catchphrase {
+    font-weight: 700;
+    font-family: "lora", "san-serif";
+    color: #ff7200;
+    font-size: 1rem;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.container {
+    width: 90%;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    background-color: #57321c;
+    padding: 2em 0;
+    box-shadow: 0 4px 8px 0 rgba(22, 22, 22, 0.19);
 }
