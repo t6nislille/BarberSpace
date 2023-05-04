@@ -46,3 +46,13 @@ header {
     padding: 2em 0;
     box-shadow: 0 4px 8px 0 rgba(22, 22, 22, 0.19);
 }
+
+@media (max-width: 675px) {
+    .container-nav {
+        flex-direction: column;
+    }
+
+    header {
+        text-align: center;
+    }
+}
