@@ -56,3 +56,44 @@ header {
         text-align: center;
     }
 }
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin-left: 2em;
+}
+
+nav a {
+    text-decoration: none;
+    color: wheat;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 2em 0;
+}
+
+nav a:hover,
+nav a:focus {
+    color: beige;
+}
+
+.current-page {
+    color:#ff7200;
+}
+
+.current-page:hover {
+    color:#ff7200;
+}
+
+@media (max-width: 675px) {
+    nav ul {
+        flex-direction: column;
+    }
+    nav li {
+        margin: 0.5em 0;
+    }
+}
