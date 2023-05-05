@@ -12,7 +12,7 @@ body {
     padding: 0;
     font-family: "poppins", sans-serif;
     height: 100vh;
-    background-color: #2c200a;
+    background-color: black;
 }
 
 .site-title h1{
@@ -537,6 +537,8 @@ main .column {
     flex-wrap: wrap;
     text-align: center;
     margin: 10px 2em;
+    display: flex;
+    flex: center;
 }
 
 .flex-item-left {
@@ -554,7 +556,7 @@ main .column {
     color: black;
 }
 
-.flex-itemright {
+.flex-item-right {
     padding: 10px;
     flex: 50%;
 }
