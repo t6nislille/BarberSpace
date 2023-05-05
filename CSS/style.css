@@ -220,18 +220,21 @@ nav a:focus {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 .service {
     font-size: 20px;
     font-weight: 500;
     color: white;
+    font-family: "Lora", sans-serif;
 }
 
 .price {
     font-size: 15px;
     color: white;
     text-align: center;
+    font-family: "Lora", sans-serif;
 }
 
 .image-content {
@@ -330,3 +333,78 @@ nav a:focus {
 }
 
 /*Barbers page*/
+.team-header {
+    text-align: center;
+    padding: 32px;
+}
+
+.team-header h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 3.2rem;
+    color: white;
+}
+
+.team p {
+    font-weight: 600;
+    color: white;
+}
+
+.team .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 14px;
+}
+
+@media (max-width: 600px) {
+    .team h1 {
+        font-size: x-large;
+    }
+}
+
+.team .column {
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 6px;
+}
+
+.team .column img {
+    margin-top: 10px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.team .column h3 {
+    font-weight: 600;
+    font-family: "Lora", sans-serif;
+    color: white;
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+.team .column p {
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    .team .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    .team .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+
