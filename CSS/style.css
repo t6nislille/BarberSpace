@@ -495,7 +495,7 @@ main .column {
 /*Booking page*/
   .booking {
     background-color: beige;
-    display: -ms-flexbox;
+    display: flexbox;
     display: flex;
     flex: center;
     -ms-flex-wrap: wrap;
@@ -520,4 +520,84 @@ main .column {
     color: black;
 }
 
+/*Contact page*/
+.contact h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 3.2rem;
+    color: black;
+}
+
+.contact {
+    background-color: beige;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 10px 2em;
+}
+
+.flex-item-left {
+    padding: 10px;
+    flex: 50%;
+}
+
+.flex-item-left h4{
+    font-weight: 700;
+    color: black;
+}
+
+.flex-item-left p {
+    font-weight: 400;
+    color: black;
+}
+
+.flex-itemright {
+    padding: 10px;
+    flex: 50%;
+}
+
+.flex-item-right form {
+    margin: 10px;
+}
+
+.flex-item-right form input [type="text"], select,textarea {
+    font-weight: 400;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.flex-item-right button {
+    background-color:#57321c ;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.flex-item-right button:hover,.flex-item-right button:focus {
+    background-color:#ff7200;
+    color: white;
+}
+
+@media (max-width: 800px) {
+    .flex-item-left,
+    .flex-item-right {
+        flex: 100%;
+    }
+}
 
