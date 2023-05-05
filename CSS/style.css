@@ -465,7 +465,7 @@ main .column {
     transform: translate(-50%) rotate(45deg);
     transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
-  
+
   .wrapper .icon:hover .tooltip {
     top: -45px;
     opacity: 1;
@@ -491,3 +491,33 @@ main .column {
     background-color: #e1306c;
     color: #ffffff;
   }
+
+/*Booking page*/
+  .booking {
+    background-color: beige;
+    display: -ms-flexbox;
+    display: flex;
+    flex: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 14px;
+    text-align: center;
+  }
+
+  .booking-head h1 {
+    text-align: center;
+  }
+
+  .booking-head {
+    text-align: center;
+    padding: 32px;
+}
+
+.booking-head h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 3.2rem;
+    color: black;
+}
+
+
