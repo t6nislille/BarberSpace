@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barber Space</title>
     <link rel="stylesheet" href="style.css">
+    <!--Swiper CSS-->
+    <link rel="stylesheet" href="swiper-bundle.min.css">
 </head>
 <body>
     <header class="header">
@@ -28,10 +30,11 @@
         </div>
     </header>
     <main class="slider">
-        <div class="slide-container">
+        <div class="slide-container swiper">
             <div class="slide-content">
-                <div class="card-wrapper">
-                    <div class="card">
+                <div class="card-wrapper swiper-wrapper">
+                    <!--Machine Cutting 14+-->
+                    <div class="card swiper-slide">
                         <div class="image-content">
                             <span class="overlay-servicers"></span>
     
@@ -46,9 +49,114 @@
                             <button class="button-service">Book Now</button>
                         </div>
                     </div>
+                    <!--BEARD TRIMMING + HEAD MASSAGE + FACE MASSAGE-->
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay-servicers"></span>
+    
+                            <div class="card-image">
+                                <img src="img/scissorsIcon.png" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="service">Beard Trimming + Head Massage + Face Massage</h2>
+                            <p class="price">25€</p>
+
+                            <button class="button-service">Book Now</button>
+                        </div>
+                    </div>
+                    <!--Haircut 14+-->
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay-servicers"></span>
+    
+                            <div class="card-image">
+                                <img src="img/scissorsIcon.png" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="service">Haircut 14+</h2>
+                            <p class="price">30€</p>
+
+                            <button class="button-service">Book Now</button>
+                        </div>
+                    </div>
+                    <!--Haircut And Beard Trimming + Head Massage + Face Massage-->
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay-servicers"></span>
+    
+                            <div class="card-image">
+                                <img src="img/scissorsIcon.png" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="service">Haircut And Beard Trimming + Head Massage + Face Massage</h2>
+                            <p class="price">50€</p>
+
+                            <button class="button-service">Book Now</button>
+                        </div>
+                    </div>
+                    <!--Haircut + Head Massage-->
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay-servicers"></span>
+    
+                            <div class="card-image">
+                                <img src="img/scissorsIcon.png" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="service">Haircut + Head Massage</h2>
+                            <p class="price">35€</p>
+
+                            <button class="button-service">Book Now</button>
+                        </div>
+                    </div>
+                    <!--Beard Trimming-->
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay-servicers"></span>
+    
+                            <div class="card-image">
+                                <img src="img/scissorsIcon.png" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="service">Beard Trimming</h2>
+                            <p class="price">20€</p>
+
+                            <button class="button-service">Book Now</button>
+                        </div>
+                    </div>
+                    <!--Haircut And Beard Trim-->
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay-servicers"></span>
+    
+                            <div class="card-image">
+                                <img src="img/scissorsIcon.png" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="service">Haircut And Beard Trim</h2>
+                            <p class="price">40€</p>
+
+                            <button class="button-service">Book Now</button>
+                        </div>
+                    </div>
+                    
                 </div>    
             </div>
+
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
         </div>
     </main>
 </body>
+
+<!--Swiper JS-->
+<script src="swiper-bundle.min.js"></script>
+<script src="script.js"></script>
 </html>
