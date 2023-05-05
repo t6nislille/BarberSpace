@@ -601,3 +601,18 @@ main .column {
     }
 }
 
+/*Footer*/
+footer {
+    padding: 26px;
+    text-align: center;
+    background-color: black;
+    margin-top: 20px;
+}
+
+footer h3 > span,
+footer h3 > a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 auto;
+}
