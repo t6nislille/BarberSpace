@@ -204,7 +204,7 @@ nav a:focus {
 
 .card {
     border-radius: 25px;
-    background-color:sienna;
+    background-color:#ff7200;
 }
 
 .slide-content {
@@ -282,7 +282,7 @@ nav a:focus {
 
 .overlay-servicers::after {
     border-radius: 0 25px 0 0;
-    background-color: sienna;
+    background-color: #ff7200;
 }
 
 .slide-container {
